@@ -1,0 +1,184 @@
+﻿Build started 4/16/2017 9:46:13 PM.
+     1>Project "D:\Documents\StarcraftBots\OpprimoBot-master\SCProjects\OpprimoBot\OpprimoBot.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /Zi /nologo /W3 /WX- /Od /Oy- /D NOMINMAX /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D EXAMPLEAIMODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\AIloop.cpp Source\Commander\Commander.cpp Source\Commander\ExplorationSquad.cpp Source\Commander\Protoss\ProtossMain.cpp Source\Commander\RushSquad.cpp Source\Commander\Squad.cpp Source\Commander\StrategySelector.cpp Source\Commander\Terran\TerranMain.cpp Source\Commander\UnitSetup.cpp Source\Commander\Zerg\LurkerRush.cpp Source\Commander\Zerg\ZergMain.cpp Source\Dll.cpp Source\Influencemap\MapManager.cpp Source\MainAgents\AgentFactory.cpp Source\MainAgents\BaseAgent.cpp Source\MainAgents\TargetingAgent.cpp Source\MainAgents\WorkerAgent.cpp Source\Managers\AgentManager.cpp Source\Managers\BuildingPlacer.cpp Source\Managers\BuildplanEntry.cpp Source\Managers\Constructor.cpp Source\Managers\ExplorationManager.cpp Source\Managers\ResourceManager.cpp Source\Managers\SpottedObject.cpp Source\Managers\Upgrader.cpp Source\OpprimoBot.cpp Source\Pathfinding\NavigationAgent.cpp Source\Pathfinding\Pathfinder.cpp Source\Pathfinding\PathObj.cpp Source\Pathfinding\PFFunctions.cpp Source\StructureAgents\Protoss\NexusAgent.cpp Source\StructureAgents\RefineryAgent.cpp Source\StructureAgents\StructureAgent.cpp Source\StructureAgents\Terran\CommandCenterAgent.cpp Source\StructureAgents\Terran\ComsatAgent.cpp Source\StructureAgents\Zerg\HatcheryAgent.cpp Source\UnitAgents\Protoss\CarrierAgent.cpp Source\UnitAgents\Protoss\CorsairAgent.cpp Source\UnitAgents\Protoss\HighTemplarAgent.cpp Source\UnitAgents\Protoss\ReaverAgent.cpp Source\UnitAgents\Terran\BattlecruiserAgent.cpp Source\UnitAgents\Terran\FirebatAgent.cpp Source\UnitAgents\Terran\GhostAgent.cpp Source\UnitAgents\Terran\MarineAgent.cpp Source\UnitAgents\Terran\MedicAgent.cpp Source\UnitAgents\Terran\ScienceVesselAgent.cpp Source\UnitAgents\Terran\SiegeTankAgent.cpp Source\UnitAgents\Terran\VultureAgent.cpp Source\UnitAgents\Terran\WraithAgent.cpp Source\UnitAgents\TransportAgent.cpp Source\UnitAgents\UnitAgent.cpp Source\UnitAgents\Zerg\DefilerAgent.cpp Source\UnitAgents\Zerg\HydraliskAgent.cpp Source\UnitAgents\Zerg\LurkerAgent.cpp Source\UnitAgents\Zerg\MutaliskAgent.cpp Source\UnitAgents\Zerg\QueenAgent.cpp Source\Utils\Config.cpp Source\Utils\cthread.cpp Source\Utils\FileReaderUtils.cpp Source\Utils\Profiler.cpp Source\Utils\ProfilerObj.cpp Source\Utils\Statistics.cpp
+         Statistics.cpp
+         ProfilerObj.cpp
+         Profiler.cpp
+         FileReaderUtils.cpp
+         cthread.cpp
+         Config.cpp
+         QueenAgent.cpp
+         MutaliskAgent.cpp
+         LurkerAgent.cpp
+         HydraliskAgent.cpp
+         DefilerAgent.cpp
+         UnitAgent.cpp
+         TransportAgent.cpp
+         WraithAgent.cpp
+         VultureAgent.cpp
+         SiegeTankAgent.cpp
+         ScienceVesselAgent.cpp
+         MedicAgent.cpp
+         MarineAgent.cpp
+         GhostAgent.cpp
+         Generating Code...
+         Compiling...
+         FirebatAgent.cpp
+         BattlecruiserAgent.cpp
+         ReaverAgent.cpp
+         HighTemplarAgent.cpp
+         CorsairAgent.cpp
+         CarrierAgent.cpp
+         HatcheryAgent.cpp
+         ComsatAgent.cpp
+         CommandCenterAgent.cpp
+         StructureAgent.cpp
+         RefineryAgent.cpp
+         NexusAgent.cpp
+         PFFunctions.cpp
+         PathObj.cpp
+         Pathfinder.cpp
+         NavigationAgent.cpp
+         OpprimoBot.cpp
+         Upgrader.cpp
+         SpottedObject.cpp
+         ResourceManager.cpp
+         Generating Code...
+         Compiling...
+         ExplorationManager.cpp
+         Constructor.cpp
+         BuildplanEntry.cpp
+         BuildingPlacer.cpp
+         AgentManager.cpp
+         WorkerAgent.cpp
+         TargetingAgent.cpp
+         BaseAgent.cpp
+         AgentFactory.cpp
+         MapManager.cpp
+         Dll.cpp
+         ZergMain.cpp
+         LurkerRush.cpp
+         UnitSetup.cpp
+         TerranMain.cpp
+         StrategySelector.cpp
+         Squad.cpp
+     1>Source\Commander\Squad.cpp(969): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+         RushSquad.cpp
+         ProtossMain.cpp
+         ExplorationSquad.cpp
+         Generating Code...
+         Compiling...
+         Commander.cpp
+         AIloop.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\Documents\StarcraftBots\OpprimoBot-master\SCProjects\Debug\OpprimoBot.dll) does not match the Linker's OutputFile property value (D:\Documents\StarcraftBots\BWAPI-data\AI\OpprimoBot.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../BWAPI-data/AI/OpprimoBot.dll" /INCREMENTAL:NO /NOLOGO ../lib/BWAPId.lib ../lib/BWTA.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\StarcraftBots\OpprimoBot-master\SCProjects\Debug\OpprimoBot.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\OpprimoBot.lib" /MACHINE:X86 /SAFESEH /DLL Debug\AIloop.obj
+         Debug\Commander.obj
+         Debug\ExplorationSquad.obj
+         Debug\ProtossMain.obj
+         Debug\RushSquad.obj
+         Debug\Squad.obj
+         Debug\StrategySelector.obj
+         Debug\TerranMain.obj
+         Debug\UnitSetup.obj
+         Debug\LurkerRush.obj
+         Debug\ZergMain.obj
+         Debug\Dll.obj
+         Debug\MapManager.obj
+         Debug\AgentFactory.obj
+         Debug\BaseAgent.obj
+         Debug\TargetingAgent.obj
+         Debug\WorkerAgent.obj
+         Debug\AgentManager.obj
+         Debug\BuildingPlacer.obj
+         Debug\BuildplanEntry.obj
+         Debug\Constructor.obj
+         Debug\ExplorationManager.obj
+         Debug\ResourceManager.obj
+         Debug\SpottedObject.obj
+         Debug\Upgrader.obj
+         Debug\OpprimoBot.obj
+         Debug\NavigationAgent.obj
+         Debug\Pathfinder.obj
+         Debug\PathObj.obj
+         Debug\PFFunctions.obj
+         Debug\NexusAgent.obj
+         Debug\RefineryAgent.obj
+         Debug\StructureAgent.obj
+         Debug\CommandCenterAgent.obj
+         Debug\ComsatAgent.obj
+         Debug\HatcheryAgent.obj
+         Debug\CarrierAgent.obj
+         Debug\CorsairAgent.obj
+         Debug\HighTemplarAgent.obj
+         Debug\ReaverAgent.obj
+         Debug\BattlecruiserAgent.obj
+         Debug\FirebatAgent.obj
+         Debug\GhostAgent.obj
+         Debug\MarineAgent.obj
+         Debug\MedicAgent.obj
+         Debug\ScienceVesselAgent.obj
+         Debug\SiegeTankAgent.obj
+         Debug\VultureAgent.obj
+         Debug\WraithAgent.obj
+         Debug\TransportAgent.obj
+         Debug\UnitAgent.obj
+         Debug\DefilerAgent.obj
+         Debug\HydraliskAgent.obj
+         Debug\LurkerAgent.obj
+         Debug\MutaliskAgent.obj
+         Debug\QueenAgent.obj
+         Debug\Config.obj
+         Debug\cthread.obj
+         Debug\FileReaderUtils.obj
+         Debug\Profiler.obj
+         Debug\ProfilerObj.obj
+         Debug\Statistics.obj
+     1>BWTA.lib(Polygon.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(Polygon.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(BWTA.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(BWTA.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(terrain_analysis.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(terrain_analysis.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(stdafx.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(stdafx.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(util.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(util.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(pathfinding.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(pathfinding.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(BWTA_Result.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(BWTA_Result.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(MapData.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(MapData.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(VertexData.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(VertexData.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(get_voronoi_edges.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(get_voronoi_edges.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(load_data.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(load_data.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(calculate_connectivity.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(calculate_connectivity.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(Graph.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(Graph.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(Node.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(Node.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(RegionImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(RegionImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(ChokepointImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(ChokepointImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(find_base_locations.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(find_base_locations.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(extract_polygons.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(extract_polygons.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(BaseLocationImpl.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(BaseLocationImpl.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>BWTA.lib(ConnectedComponent.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in AIloop.obj
+     1>BWTA.lib(ConnectedComponent.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in AIloop.obj
+     1>LINK : fatal error LNK1104: cannot open file 'libCGAL-vc120-mt-4.4.lib'
+     1>Done Building Project "D:\Documents\StarcraftBots\OpprimoBot-master\SCProjects\OpprimoBot\OpprimoBot.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:46.63
